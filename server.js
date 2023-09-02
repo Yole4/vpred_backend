@@ -31,7 +31,7 @@ app.use(cookieParser());
 
 app.use(bodyParser.json());
 app.use(cors({
-    origin: ['http://localhost:3000'],
+    origin: ['https://vpred-portal-with-plagiarism-detector.onrender.com'],
     methods: ['POST', 'GET'],
     credentials: true
 }));
